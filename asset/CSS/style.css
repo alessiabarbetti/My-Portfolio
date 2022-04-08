@@ -101,6 +101,6 @@ transform: translateX(+130%);
 @media (max-width: 576px) {
   .about-cv  {
   position: absolute;
-  transform: translateX(+50%);
+  transform: translateX(+40%);
   }
 }
