@@ -43,10 +43,10 @@
      <div class="container-fluid padding">
      <div class="row padding text-center">
       <div class="mb-3 mt-4">
-     <form onsubmit="sendEmail(); reset(); return false;">
+     <form action="https://formsubmit.co/alessia.barbetti93@gmail.com" method="POST">
        <h1>CONTATTAMI</h1>
        <hr class="my-4">
-       <input class="mb-3 mt-4" type="text" id="name" placeholder="Nome" required>
+       <input class="mb-3 mt-4" type="text" id="name" placeholder="Nome e Cognome" required>
        <input class="mb-3 mt-2" type="email" id="email" placeholder="E-mail" required>
        <textarea class="mb-3 mt-2" id="message" rows="4" placeholder="Messaggio" required></textarea>
        <button type="submit" class="btn btn-primary btn-block mb-4 mt-2">Invia</button>
@@ -54,6 +54,7 @@
     </div>
     </div>
     </div>
+
 
     <!-- footer -->
     <footer>
@@ -65,6 +66,7 @@
                <a href="mailto:alessia.barbetti93@gmail.com">alessia.barbetti93@gmail.com</a>
            </div>
          </div>
+
            <!-- Footer - Social's icon -->
           <div class="col-md-12">
            <div class="footer-social">
@@ -90,22 +92,7 @@
    </div>
    </footer>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-         function sendEmail(){
-           Email.send({
-     Host : "smtp.elasticmail.com",
-     Username : "alessia.barbetti93@gmail.com",
-     Password : "8B4EFCB3FDB6A10DD850AE758FFF95F92FD4",
-     To: 'alessia.barbetti93@gmail.com',
-     From : "you@isp.com",
-     Subject: " Questo è l'oggetto",
-     Body : "E questo è il corpo"
- }).then(
-   message => alert(message)
- );
-       }
-    </script>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
