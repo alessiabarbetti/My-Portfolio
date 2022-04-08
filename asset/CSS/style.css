@@ -49,12 +49,11 @@ transform: translateX(+50%);
   color: #0e1c3c;
   width: 15rem;
   height: 3rem;
-  border-radius: 3.50rem;
   font-weight: 500;
   letter-spacing: .15rem;
 }
 
-.btn-primary, .btn-secondary:hover {
+.btn-primary:hover, .btn-secondary:hover {
   background-color: #0e1c3c;
   color: #ff6805;
   transform: scale(1);
@@ -101,6 +100,6 @@ transform: translateX(+130%);
 @media (max-width: 576px) {
   .about-cv  {
   position: absolute;
-  transform: translateX(+40%);
+  transform: translateX(+35%);
   }
 }
