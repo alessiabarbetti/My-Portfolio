@@ -59,12 +59,11 @@ transform: translateX(+50%);
 }
 
 
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: space-evenly;
+.form-control {
+ min-heigt: 100px;
+ overflow: visible;
 }
+
 
 
 /* ------- Footer ------- */
