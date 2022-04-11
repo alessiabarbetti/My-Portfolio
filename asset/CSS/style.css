@@ -62,9 +62,9 @@ transform: translateX(+50%);
 
 
 .form {
-  margin-top: 6rem;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   justify-content: space-evenly;
 }
 
