@@ -47,8 +47,6 @@ transform: translateX(+50%);
 .btn-primary, .btn-secondary {
   background-color: #ff6805;
   color: #0e1c3c;
-  width: 15rem;
-  height: 3rem;
   font-weight: 500;
   letter-spacing: .15rem;
   border-radius: 3.50rem;
