@@ -83,7 +83,7 @@ footer {
 @media (min-width: 992px) {
 .about-cv  {
 position: absolute;
-transform: translateX(+130%);
+transform: translateX(+150%);
 }
 
 .card {
@@ -94,7 +94,7 @@ transform: translateX(+130%);
 @media (min-width: 1200px) {
   .about-cv  {
   position: absolute;
-  transform: translateX(+230%);
+  transform: translateX(+250%);
   }
 }
 
