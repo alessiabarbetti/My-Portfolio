@@ -60,6 +60,15 @@ transform: translateX(+50%);
   transform: scale(1);
 }
 
+
+.form {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
 /* ------- Footer ------- */
 footer {
   margin-top: auto;
