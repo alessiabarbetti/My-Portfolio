@@ -88,7 +88,7 @@ transform: translateX(+50%);
 
 .text-area {
  height: 100px;
- overflow: visible;
+ word-wrap: break-word;
 }
 
 
@@ -106,16 +106,21 @@ footer {
 
 /*---Media Queries --*/
 @media (min-width: 992px) {
-
-.card {
-  transform: translateX(+50%);
+.social a {
+font-size: 4em;
+padding: 2rem;
 }
-}
-
-@media (min-width: 1200px) {
-
 
 @media (max-width: 768px) {
-
+.social a {
+font-size: 2.em;
+padding: 1.2rem;
+}
+}
 
 @media (max-width: 576px) {
+.social a {
+font-size: 2em;
+padding: .7rem;
+}
+}
