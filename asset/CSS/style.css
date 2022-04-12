@@ -5,6 +5,20 @@
   padding: 1rem;
 }
 
+/*-- General style --*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -40,6 +54,11 @@ html, body {
   font-size: 1.2em !important;
 }
 
+.welcome-box h1 {
+  font-size: 2.9rem;
+}
+
+
 .my-4 {
 border-top: 2px solid #b4b4b4;
 width: 50%;
@@ -62,6 +81,15 @@ transform: translateX(+50%);
   transform: scale(1);
 }
 
+.btn-primary:focus, .btn-secondary:focus {
+  background-color: #ff6805;
+  color: #0e1c3c;
+}
+
+.text-area {
+ height: 100px;
+ overflow: visible;
+}
 
 
 /* ------- Footer ------- */
